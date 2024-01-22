@@ -2,7 +2,7 @@ FROM node:18.18.2-alpine
 
 LABEL maintainer "https://github.com/blacktop"
 
-RUN apk add --no-cache openjdk21-jre tini su-exec
+RUN apk add --no-cache openjdk17-jre tini su-exec
 
 ENV STACK 8.12.0
 
